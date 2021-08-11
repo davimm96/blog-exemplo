@@ -4,19 +4,6 @@
 }
 
 /*Corpo*/
-#blocoSlider, main {
-    position: relative;
-    top: 75px;
-}
-
-footer {
-    position: relative;
-    top: 32px;
-}
-
-article {
-    padding-bottom: 50px;
-}
 
 article {
     background-color: rgba(0, 0, 0, 0.233);

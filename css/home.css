@@ -1,3 +1,17 @@
+#blocoSlider, main {
+    position: relative;
+    top: 75px;
+}
+
+footer {
+    position: relative;
+    top: 32px;
+}
+
+article {
+    padding-bottom: 50px;
+}
+
 #blocoResumos {
     width: calc(100% - 245px);
     background-color: white;
