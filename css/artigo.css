@@ -1,0 +1,96 @@
+.menuFixo {
+    position: fixed;
+}
+
+.principalArtigo {
+    padding-top: 136px!important;
+}
+
+.blocoArtigo {
+    width: calc(100% - 245px);
+    background-color: white;
+    padding: 20px 50px 20px 50px;
+}
+
+.blocoArtigo p {
+    margin: 15px 0px 15px 0px;
+}
+
+.blocoArtigo h1 {
+    font-size: 40px;
+}
+
+#imgArt1, #imgArt2, #imgArt3, #imgArt4, #imgArt5, #imgArt6, #imgArt7 {
+    width: 400px;
+    height: 400px;
+    float: right;
+    padding: 7px;
+    background-size: cover;
+}
+
+#imgArt1 {
+    background-image: url("../img/1.jpg");
+}
+
+#imgArt2 {
+    background-image: url("../img/2.jpg");
+}
+
+#imgArt3 {
+    background-image: url("../img/3.jpg");
+}
+
+#imgArt4 {
+    background-image: url("../img/4.jpg");
+}
+
+#imgArt5 {
+    background-image: url("../img/5.jpg");
+}
+
+#imgArt6 {
+    background-image: url("../img/6.jpg");
+}
+
+#imgArt7 {
+    background-image: url("../img/7.jpg");
+}
+
+@media only screen and (max-width:1110px){
+    #imgArt1, #imgArt2, #imgArt3, #imgArt4, #imgArt5, #imgArt6, #imgArt7 {
+        width: 300px;
+        height: 300px; 
+    }
+}
+
+@media only screen and (max-width:900px){
+    .blocoArtigo {
+        padding: 7px 10px 7px 10px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #principal {
+        flex-wrap: wrap;
+    }
+
+    #menuLateral {
+        width: 100%;
+        margin: 0px;
+    }
+}
+
+@media only screen and (max-width:600px){
+    #imgArt1, #imgArt2, #imgArt3, #imgArt4, #imgArt5, #imgArt6, #imgArt7 {
+        float: inherit;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width:360px){
+    #imgArt1, #imgArt2, #imgArt3, #imgArt4, #imgArt5, #imgArt6, #imgArt7 {
+        width: 200px;
+        height: 200px;
+    }
+}

@@ -1,0 +1,170 @@
+#blocoResumos {
+    width: calc(100% - 245px);
+    background-color: white;
+    padding: 20px 0px 20px 0px;
+}
+
+#resumos {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.resumo {
+    width: calc(50% - 15px);
+    border: blue 1px solid;
+    margin: 6.5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#resArt h1,  #resArt2 h1, #resArt3 h1, #resArt4 h1, #resArt5 h1, #resArt6 h1, #resArt7 h1{
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+    background-color: rgba(0, 0, 0, 0.527);
+}
+
+#resArt {
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    padding: 20px 0px 20px 0px;
+}
+
+#resArt2 {
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    padding: 20px 0px 20px 0px;
+}
+
+#resArt3 {
+    background-image: url(../img/3.jpg);
+    background-size: cover;
+    padding: 20px 0px 20px 0px;
+}
+
+#resArt4 {
+    background-image: url(../img/4.jpg);
+    background-size: cover;
+    padding: 20px 0px 20px 0px;
+}
+
+#resArt5 {
+    background-image: url(../img/5.jpg);
+    background-size: cover;
+    padding: 20px 0px 20px 0px;
+}
+
+#resArt6 {
+    background-image: url(../img/6.jpg);
+    background-size: cover;
+    padding: 20px 0px 20px 0px;
+}
+
+#resArt7 {
+    background-image: url(../img/7.jpg);
+    background-size: cover;
+    padding: 20px 0px 20px 0px;
+}
+
+.imgResBloco {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
+#resArt {
+    width: 100%;
+}
+
+#resArt p, #resArt2 p, #resArt3 p, #resArt4 p, #resArt5 p, #resArt6 p, #resArt7 p {
+    text-align: center;
+    font-size: 23px;
+    z-index: 99;
+    color: white;
+    width: calc(100% - 10px);
+    margin: 0 auto;
+    padding: 20px 5px 20px 5px;
+    background-color: rgba(0, 0, 0, 0.527);
+}
+
+.saberMais {
+    display: none;
+    transition-duration: 1s;
+    z-index: 99;
+}
+
+.rHover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    transition-duration: 1s;
+}
+
+.smHover {
+    font-size: 40px;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    display: block!important;
+    transition-duration: 1s;
+}
+
+.resumo1hover {
+    opacity: 0; 
+    transition-duration: 1s;
+}
+
+.rRemove {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    transition-duration: 1s;
+}
+
+.smRemove {
+    font-size: 23px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    display: none!important;
+    transition-duration: 1s;
+}
+
+.resumo1remove {
+    opacity: 1; 
+    transition-duration: 1s;
+}
+
+.saberMais a {
+    text-decoration: none;
+    color: rgb(221, 221, 221);
+    padding: 5px;
+    background-color: blue;
+    z-index: 99;
+    box-shadow: 0 0.2em 1em gray;
+}
+
+.saberMaishover {
+    color: white!important;
+    background-color: rgb(102, 102, 255)!important;
+    box-shadow: 0 0.2em 1em white!important;
+    transition-duration: 1s;
+}
+
+.saberMaisTirar {
+    color: rgb(221, 221, 221)!important;
+    background-color: blue!important;
+    box-shadow: 0 0.2em 1em gray!important;
+    transition-duration: 1s;
+}
+
+@media only screen and (max-width:300px) {
+    #resArt p, #resArt2 p, #resArt3 p, #resArt4 p, #resArt5 p, #resArt6 p, #resArt7 p{
+        font-size: 20px;
+    }
+}

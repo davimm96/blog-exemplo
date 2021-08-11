@@ -1,0 +1,57 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*Corpo*/
+#blocoSlider, main {
+    position: relative;
+    top: 75px;
+}
+
+footer {
+    position: relative;
+    top: 32px;
+}
+
+article {
+    padding-bottom: 50px;
+}
+
+article {
+    background-color: rgba(0, 0, 0, 0.233);
+    z-index: 99;
+    position: relative;
+}
+
+#principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media only screen and (max-width:900px){
+    #principal {
+        flex-wrap: wrap;
+    }
+
+    #blocoResumos {
+        width: 100%!important;
+        margin-bottom: 25px;
+    }
+
+    #menuLateral {
+        width: 100%!important;
+        margin-left: 0px!important;
+    }
+}
+
+@media only screen and (max-width:650px){
+    .resumo{
+        width: calc(100% - 15px)!important;
+    }
+}
