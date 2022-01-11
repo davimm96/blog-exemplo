@@ -37,8 +37,3 @@ article {
     }
 }
 
-@media only screen and (max-width:650px){
-    .resumo{
-        width: calc(100% - 15px)!important;
-    }
-}

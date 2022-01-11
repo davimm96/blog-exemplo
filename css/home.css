@@ -19,16 +19,109 @@ article {
 }
 
 #resumos {
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
+    display: grid;
+    grid-row-gap: 15px;
+    justify-items: center;
 }
 
+@media(min-width:1872px){
+    #resumos{
+        grid-template-columns: auto auto auto auto;  
+    }
+
+    .resumo{
+        width: 353px;
+    }
+}
+
+@media(max-width:1872px){
+    #resumos{
+        grid-template-columns: auto auto auto;  
+    }
+
+    .resumo{
+        width: 411px; 
+    }
+}
+
+@media(max-width:1614px){
+    .resumo{
+        width: 356px; 
+    }
+}
+
+@media(max-width:1492px){
+    #resumos{
+        grid-template-columns: auto auto;  
+    }
+
+    .resumo{
+        width: 472px;
+    }
+}
+
+@media(max-width:1297px){
+    .resumo{
+        width: 415px;
+    }
+}
+
+@media(max-width:1170px){
+    .resumo{
+        width: 328px;
+    }
+}
+
+@media(max-width:1017px){
+    .resumo{
+        width: 297px;
+    }
+}
+
+@media(max-width:900px){
+    .resumo{
+        width: 357px;
+    }
+}
+
+@media(max-width:789px){
+    .resumo{
+        width: 307px;
+    }
+}
+
+@media(max-width:685px){
+    .resumo{
+        width: 272px;
+    }
+}
+
+@media(max-width:596px){
+    .resumo{
+        width: 440px;
+    }
+
+    #resumos{
+        grid-template-columns: auto;  
+    }
+}
+
+@media(max-width: 900px){
+    .resumo {
+        width: 95%;
+    }
+}
+
+#resumo1, #resumo2, #resumo3, #resumo4, #resumo5, #resumo6 #resumo7{
+    object-fit: cover;
+    background-size: 100% 100%;
+    
+}
+
+
 .resumo {
-    width: calc(50% - 15px);
-    border: blue 1px solid;
     margin: 6.5px;
     overflow: hidden;
     cursor: pointer;
@@ -132,20 +225,23 @@ article {
     transition-duration: 1s;
 }
 
-.rRemove {
+.btsm {
+    background-color: #020220;
+    color: blue;
+    text-decoration: none;
+    padding: 5px;
+    position: relative;
+    margin: 0 auto;
+    width: 73px;
     display: block;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
+    top: -14px;
+    box-shadow: #0c0c0cb8 2px 2px;
     transition-duration: 1s;
 }
 
-.smRemove {
-    font-size: 23px;
-    text-align: center;
-    margin: 0 auto;
-    position: relative;
-    display: none!important;
+.btsm:hover{
+    background-color: blue;
+    color: yellow;
     transition-duration: 1s;
 }
 
