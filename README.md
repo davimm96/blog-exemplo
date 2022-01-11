@@ -4,6 +4,6 @@
  * Flexbox
  * Parallax
  * Ajax
- * Responsivo
+* Responsivo
 
-[Clique aqui pra ver](https://davimm96.github.io/blog/)
+
