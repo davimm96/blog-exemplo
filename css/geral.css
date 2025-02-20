@@ -5,8 +5,13 @@
 
 /*Corpo*/
 
+header {
+    height: 69vh;
+    margin: 0px;
+}
+
 article {
-    background-color: rgba(0, 0, 0, 0.233);
+    background-color: rgb(10 10 10);
     z-index: 99;
     position: relative;
 }

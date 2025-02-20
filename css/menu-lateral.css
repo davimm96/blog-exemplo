@@ -1,10 +1,11 @@
 #menuLateral {
     width: 245px;
     margin-left: 5px;
-    background-color: white;
+    background-color: #181818;
     position: sticky;
     top: 0px;
     padding: 20px 0px 20px 0px;
+    color:white
 }
 
 
@@ -20,7 +21,7 @@
 }
 
 #menuLateral a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
