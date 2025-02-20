@@ -5,11 +5,6 @@
 
 /*Corpo*/
 
-header {
-    height: 69vh;
-    margin: 0px;
-}
-
 article {
     background-color: rgb(10 10 10);
     z-index: 99;
@@ -24,6 +19,16 @@ article {
     margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+#artigoSpace {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 185px;
+    padding-bottom: 94px;
 }
 
 @media only screen and (max-width:900px){
